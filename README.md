@@ -4,13 +4,11 @@ Practice>Algorithms>Graph Theory>Dijkstra: Shortest Reach 2
 
 https://www.hackerrank.com/challenges/dijkstrashortreach/problem
 
-This challenge is as much about Dijkstra Algorithm as about squeezing of every drop slack code 
-in order to improve time complexity! 
-Otherwise the algorithm will not pass all the tests and will time out!
+This challenge is as much about Dijkstra Algorithm as about squeezing every drop of slack code in order to improve time complexity! Otherwise the algorithm will not pass all the tests and will time out!
 
-Therefore my solution includes:
+Therefore, my solution includes:
 - BufferReader instead of Scanner.
-- Adjacency List for vertices and edges.
+-  Adjacency List for vertices and edges.
 - Array of integers for distances from the start.
 - Array of booleans for visited vertices.
 - Wrapper classes for the methods' parameters. Since the parameters in these methods
