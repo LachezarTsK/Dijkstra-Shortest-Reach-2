@@ -24,7 +24,7 @@ public class Solution {
 		verticesAndEdges[vertexTwo - 1].add(new Edge(vertexOne, edgeLength));
 	}
 
-	private static void shortestReach(Integer numberOfVertices, Integer startVertex) {
+	private static void dijkstraSearch(Integer numberOfVertices, Integer startVertex) {
 		Arrays.fill(distanceFromStart, Integer.MAX_VALUE);
 		distanceFromStart[startVertex - 1] = 0;
 
@@ -106,7 +106,7 @@ public class Solution {
 			st = new StringTokenizer(br.readLine());
 			int startVertex = Integer.parseInt(st.nextToken());
 
-			shortestReach(numberOfVertices, startVertex);
+			dijkstraSearch(numberOfVertices, startVertex);
 			printResults(startVertex);
 		}
 	}
